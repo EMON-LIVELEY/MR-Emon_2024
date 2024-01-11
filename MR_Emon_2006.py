@@ -222,9 +222,13 @@ def MORAD():
         if Saba in ['1']:        	
             MORAD()
         if Saba in ['2']:
-        	os.system('xdg-openhttps://www.facebook.com/profile.php?id=100078731167665&mibextid=eHce3h')
+        	os.system('xdg-open https://www.facebook.com/profile.php?id=100078731167665&mibextid=eHce3h')
         if Saba in ['3']:
             os.system('xdg-open https://facebook.com/groups/1403566770234009/')
+        if Saba in ['4']:
+        	os.system('xdg-open https://t.me/Teammrcyber20')
+	if Saba in ['5']:
+        	os.system('xdg-open https://www.youtube.com/@Teammrcyber20')
         if Saba in [" 0", "00"]:
             exit()
         else:
